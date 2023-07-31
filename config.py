@@ -5,9 +5,9 @@
 import os
 
 class Config:
-    API_ID = int(os.environ.get("API_ID", 123))
-    API_HASH = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    API_ID = int(os.environ.get("API_ID", 11405596))
+    API_HASH = os.environ.get("API_HASH", "39ad6135ac9b75a47f2d1804c092c8f8")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5858506574:AAEApw7z9hnT4iMtkR-gyJssgvIlZAEUI8A")
     DOWNLOAD_LOCATION = "./DOWNLOADS"
     TG_MAX_SIZE = 2040108421
     OWNER_ID = int(os.environ.get("OWNER_ID", 1316963576))
